@@ -1,0 +1,283 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NsiViewerDevExpress"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:viewModels="clr-namespace:NsiViewerDevExpress.ViewModels" 
+        xmlns:common="clr-namespace:NsiViewerDevExpress.Common"
+        xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+        xmlns:dxgt="http://schemas.devexpress.com/winfx/2008/xaml/grid/themekeys"
+        x:Class="NsiViewerDevExpress.Views.MainWindow"
+        mc:Ignorable="d"
+        dx:ThemeManager.ThemeName="Office2010White"
+        DataContext="{dxmvvm:ViewModelSource Type=viewModels:MainViewModel}" 
+        Height="720" 
+        Width="1200"
+        Title="{Binding MainViewTitle}"
+        Icon="../Images/dictionary.ico">
+    
+    <Window.Resources>
+       
+        <dxg:ColumnTemplateSelector x:Key="TemplateSelector" />
+        <Style x:Key="ColumnStyle" TargetType="dxg:GridColumn">
+            <Setter Property="MinWidth" Value="100" />
+        </Style>
+
+        <Style
+            x:Key="CellStyleForDynamicColumns"
+            BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=CellStyle}}"
+            TargetType="{x:Type dxg:CellContentPresenter}">
+        </Style>
+
+        <DataTemplate x:Key="RegularColumnTemplate" DataType="{x:Type common:ColumnEx}">
+            <ContentControl>
+                <dxg:GridColumn
+                    CellStyle="{StaticResource CellStyleForDynamicColumns}"
+                    common:BindingHelper.Path="{Binding CellSource}"
+                    Header="{Binding Header}"
+                    ReadOnly="False"/>
+            </ContentControl>
+            </DataTemplate>
+            <common:ColumnTemplateSelector x:Key="ColumnTemplateSelector" DefaultDataTemplate="{StaticResource RegularColumnTemplate}" />
+    </Window.Resources>
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Vertical">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        
+        <dxlc:LayoutControl Grid.Row="1" Orientation="Horizontal">
+            <Label
+                     Width="Auto"
+                     Height="24"
+                     HorizontalAlignment="Left"
+                     Content="База данных: "
+                     FontFamily="Arial"  />
+            
+            <ComboBox  
+                     Name="Filter"
+                     Width="325"
+                     Height="24"
+                     HorizontalAlignment="Left"
+                     DisplayMemberPath="DbName"
+                     ItemsSource="{Binding DbCollection}"
+                     SelectedItem="{Binding SelectedDb, Mode=TwoWay}"/>
+            <Label
+                Width="Auto"
+                Height="24"
+                HorizontalAlignment="Right"
+                Content="Режим Excel:"
+                FontSize="14"
+                FontFamily="Century Gothic" />
+            <Label
+                Width="Auto"
+                Height="24"
+                Foreground="Red"
+                HorizontalAlignment="Right"
+                Content="{Binding isExcel}"
+                FontSize="14"
+                FontFamily="Century Gothic"/>
+
+
+        </dxlc:LayoutControl>
+        
+        <StackPanel Grid.Row="2" Orientation="Vertical">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        
+            <dxlc:LayoutControl Grid.Row="3" Orientation="Horizontal">
+                
+            <Button
+                Width="140"
+                Height="25"
+                HorizontalAlignment="Left"
+                Content=" Экспорт "
+                Command="{Binding PrintCommand, Source={x:Static viewModels:PrintHelper.Instance}}"
+                CommandParameter="{Binding ElementName=ReferenceRecordView}"
+                IsEnabled="{Binding RunExportButtonEnabled}" />
+            <!--  Кнопка "Импорт в Excel"  -->
+            <Button
+                Width="140"
+                Height="25"
+                HorizontalAlignment="Left"
+                Command="{Binding ImportCommand, Source={x:Static viewModels:ImportHelper.Instance}}"
+                CommandParameter="{Binding ElementName=ReferenceRecordView}"
+                Content=" Импорт " />
+
+                <Label
+                    Width="Auto"
+                    Height="25"
+                    HorizontalAlignment="Left"
+                    Content="Справочник: "
+                    FontFamily="Arial" />
+
+            <dxg:LookUpEdit
+                Name="Nsi"
+                Width="300"
+                Height="24"
+                FilterCondition="Contains"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                AutoPopulateColumns="False"
+                DisplayMember="ReferenceName"
+                IsTextEditable="False"
+                ItemsSource="{Binding NsiCollection}"
+                PopupMaxWidth="1300"
+                PopupMinWidth="900"
+                SelectedItem="{Binding SelectedNsi, Mode=TwoWay}"
+                ValueMember="ReferenceId">
+                <dxg:LookUpEdit.StyleSettings>
+                    <dxg:SearchLookUpEditStyleSettings IsTextEditable="True" />
+                </dxg:LookUpEdit.StyleSettings>
+                <dxg:LookUpEdit.PopupContentTemplate>
+                    <ControlTemplate>
+                        <dxg:GridControl Name="PART_GridControl">
+                            <dxg:GridControl.Columns>
+                                <dxg:GridColumn FieldName="ReferenceId" Header="Код справочника НСИ" />
+                                <dxg:GridColumn FieldName="ReferenceName" Header="Наименование справочника НСИ" />
+                                <dxg:GridColumn FieldName="ReferenceGroupId" Header="Код группы справочников НСИ" />
+                            </dxg:GridControl.Columns>
+                            <dxg:GridControl.View>
+                                <dxg:TableView AutoWidth="True" />
+                            </dxg:GridControl.View>
+                        </dxg:GridControl>
+                    </ControlTemplate>
+                </dxg:LookUpEdit.PopupContentTemplate>
+            </dxg:LookUpEdit>
+
+            <Label
+                Width="Auto"
+                    Height="24"
+                    HorizontalAlignment="Left"
+                    Content=" Код справочника: "
+                    FontFamily="Arial" />
+                <!--  Код выбранного справочника  -->
+            <Label
+                    Width="Auto"
+                    Height="24"
+                    HorizontalAlignment="Left"
+                    Content="{Binding SelectedNsi.ReferenceId, TargetNullValue={x:Static sys:String.Empty}}"
+                    FontFamily="Arial" />
+            <Button
+                Width="200"
+                Height="25"
+                HorizontalAlignment="Right"
+                Content=" Сохранить в базу данных "
+                Command="{Binding SaveSqlCommand, Source={x:Static viewModels:SqlSaveHelper.Instance}}"
+                CommandParameter="{Binding ElementName=ReferenceRecordView}"
+                IsEnabled="{Binding ExportSQL}" />
+        </dxlc:LayoutControl>
+        
+        <StackPanel Grid.Row="4" Orientation="Vertical">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        
+        <Grid Row="5"
+              MaxWidth="{Binding ElementName=MainGrid, Path=ActualWidth}"
+              MaxHeight="{Binding ElementName=MainGrid, Path=ActualHeight}">
+            <dxg:GridControl
+                x:Name="ReferenceAttributeCollectionGrid"
+                AutoGenerateColumns="AddNew"
+                ItemsSource="{Binding ReferenceAttributeCollection}"
+                ColumnGeneratorStyle="{StaticResource ColumnStyle}">
+                <dxg:GridControl.Resources>
+                    <common:ConverterRefAttrType x:Key="ConverterRefAttrType"/>
+                </dxg:GridControl.Resources>
+                <dxg:GridControl.Columns>
+                    <dxg:GridColumn
+                        FieldName="ReferenceAttributeId"
+                        Header="Код атрибута справочника НСИ"
+                        ReadOnly="False" />
+                    <dxg:GridColumn
+                        FieldName="ReferenceAttributeName"
+                        Header="Наименование атрибута"
+                        ReadOnly="False" />
+                    <dxg:GridColumn 
+                        DisplayMemberBinding="{Binding Path=ReferenceAttributeType, Converter={StaticResource ConverterRefAttrType}, Mode=TwoWay}"
+                        Header="Тип атрибута"
+                        ReadOnly="False" />
+                    <dxg:GridColumn
+                        FieldName="RefReferenceId"
+                        Header="Ссылка на справочник"
+                        ReadOnly="False" />
+                    <dxg:GridColumn
+                        FieldName="DataAreaId"
+                        Header="Код компании в DAX"
+                        Visible="False" />
+                    <dxg:GridColumn
+                        FieldName="RecId"
+                        Header="Код записи в DAX"
+                        Visible="False" />
+                    <dxg:GridColumn
+                        FieldName="ReferenceId"
+                        Header="Код справочника НСИ"
+                        Visible="False" />
+                    <dxg:GridColumn FieldName="GM_NSIReference" Visible="False" />
+                    <dxg:GridColumn FieldName="RefReference" Visible="False" />
+                </dxg:GridControl.Columns>
+                <dxg:GridControl.View>
+                    <dxg:TableView
+                        AllowPerPixelScrolling="True"
+                        AutoWidth="True"
+                        NavigationStyle="Row"
+                        ShowGroupPanel="False">
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+         </Grid>
+        <StackPanel Grid.Row="6" Orientation="Vertical">
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        <Grid
+            Row="7"
+            MaxWidth="{Binding ElementName=MainGrid, Path=ActualWidth}"
+            MaxHeight="{Binding ElementName=MainGrid, Path=ActualHeight}">
+            <dxg:GridControl
+                x:Name="ReferenceRecordGrid"
+                AutoGenerateColumns="AddNew"
+                AutoGeneratedColumns="OnColumnsGenerated"
+                ColumnGeneratorTemplateSelector="{StaticResource ColumnTemplateSelector}"
+                ColumnsSource="{Binding Columns}"
+                ItemsSource="{Binding Records}"
+                SelectedItem="{Binding Path=SelectedAttributeValue}"
+                SelectionMode="Row">
+                <dxg:GridControl.View>
+                    <dxg:TableView
+                        x:Name="ReferenceRecordView"
+                        CellValueChanged="ReferenceRecordView_OnCellValueChanged"
+                        AutoWidth="True"
+                        AllowResizing="True"
+                        AllowPerPixelScrolling="True"
+                        ShowGroupPanel="False"
+                        ShowColumnHeaders="True"
+                        AllowBestFit="True"
+                        BestFitArea="All"
+                        BestFitMode="VisibleRows"
+                        UseLightweightTemplates="None">
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+        </Grid>
+
+    </Grid>
+
+
+
+
+
+</Window>

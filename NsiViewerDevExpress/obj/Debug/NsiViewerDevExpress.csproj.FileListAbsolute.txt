@@ -1,0 +1,172 @@
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.exe.config
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.exe
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.pdb
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.CodeParser.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Data.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.DataAccess.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.DataModel.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.DataModel.EF6.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.ViewModel.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Controls.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Core.v16.1.Extensions.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.DataAccess.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.Extensions.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Printing.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.Office2010Blue.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpo.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\EntityFramework.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\EntityFramework.SqlServer.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\System.Windows.Interactivity.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Docking.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Office.v16.1.Core.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\EntityFramework.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\EntityFramework.SqlServer.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\System.Windows.Interactivity.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Docking.v16.1.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Office.v16.1.Core.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\de\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\en\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\es\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\it\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\de\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\es\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csprojResolveAssemblyReference.cache
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csproj.NsiViewerDevExpress.exe.config
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\MainWindow.g.cs
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\App.g.cs
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_Content.g.cs
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_MarkupCompile.cache
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_MarkupCompile.lref
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\MainWindow.baml
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.g.resources
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.Properties.Resources.resources
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csproj.GenerateResource.Cache
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.exe
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.pdb
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.LightGray.v16.1.dll
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\GeneratedInternalTypeHelper.g.cs
+R:\WORK!\Visual Studio\Projects\NsiViewerDevExpress\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.exe.licenses
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.exe.config
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.exe
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.pdb
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.exe
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\NsiViewerDevExpress.pdb
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.CodeParser.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Data.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.DataAccess.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.DataModel.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.DataModel.EF6.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Mvvm.v16.1.ViewModel.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Controls.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Core.v16.1.Extensions.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.DataAccess.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.DocumentViewer.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Grid.v16.1.Extensions.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.LayoutControl.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Printing.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.PropertyGrid.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.LightGray.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.Office2010Blue.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Themes.Office2016White.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpo.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\EntityFramework.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\EntityFramework.SqlServer.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\System.Windows.Interactivity.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Docking.v16.1.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Office.v16.1.Core.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\EntityFramework.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\EntityFramework.SqlServer.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\System.Windows.Interactivity.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Docking.v16.1.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Xpf.Layout.v16.1.Core.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Office.v16.1.Core.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\de\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\en\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\es\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\it\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\de\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\es\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Xpf.Docking.v16.1.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csprojResolveAssemblyReference.cache
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csproj.NsiViewerDevExpress.exe.config
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_Content.g.cs
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\GeneratedInternalTypeHelper.g.cs
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_MarkupCompile.cache
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress_MarkupCompile.lref
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.g.resources
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.Properties.Resources.resources
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.csproj.GenerateResource.Cache
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\NsiViewerDevExpress.exe.licenses
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\Views\MainWindow.g.cs
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\Views\App.g.cs
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\Views\MainWindow.baml
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\Views\CalculatingDialog.g.cs
+R:\WORK!\Norbit\nsieditor\NsiViewerDevExpress\obj\Debug\Views\CalculatingDialog.baml
